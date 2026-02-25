@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../Ohjelmoinninperusteet"
+		},
+		{
+			"name": "Python-Testi",
+			"path": "../Python-Testi/Python-Testi"
+		},
+		{
+			"name": "Weather-Data-Project",
+			"path": "../Weather-Data-Project"
+		},
+		{
+			"name": "Crypto-Pipeline",
+			"path": "../Crypto-Pipeline"
+		},
+		{
+			"name": "HTMLHarjoitus",
+			"path": "../HTMLHarjoitus"
+		}
+	],
+	"settings": {}
+}
