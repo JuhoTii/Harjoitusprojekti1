@@ -79,6 +79,15 @@ public class Program
     static void RemoveProduct(Dictionary<string, int> stock, string name)
     {
         // TODO: Remove + tulostus
+
+        if (stock.Remove(name))
+        {
+            Console.WriteLine("Removed ");
+        }
+        else
+        {
+            Console.WriteLine("Not Found");
+        }
     }
 
     static void AddToCategory(Dictionary<string, List<string>> categories, string category, string product)
