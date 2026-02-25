@@ -93,6 +93,12 @@ public class Program
     static void AddToCategory(Dictionary<string, List<string>> categories, string category, string product)
     {
         // TODO: ContainsKey/TryGetValue + lista
+
+        if (!categories.ContainsKey(category))
+        {
+            categories.Add(category, new List<string>());
+        }
+        categories[category].Add(product);
     }
 
     static void PrintCategories(Dictionary<string, List<string>> categories)
